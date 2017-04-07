@@ -1,0 +1,15 @@
+--- fieldmap ---
+timestamp:                          2017-02-24_11-11-22
+filename:                           2017-02-24_SI_Sextupole_Model07_Sim_QS_X=-14_14mm_Z=-500_500mm_Imc=158.48A_Iqs=4.3A.txt
+magnet_label:                       SI_Sextupole
+magnet_length:                      154.0 mm
+main_coil_current:                  4.3 A
+main_coil_NI:                       1782.9 A
+magnetic_gap:                       28.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            57 points in [-14.0,14.0] mm (step of 0.500000 mm)
+rz_grid:                            1001 points in [-500.0,500.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.46843 max:-0.00000) (min:-0.00008 max:-0.00000) Tesla
+bx@(all)(axis):                     (min:-0.00370 max:+0.00369) (min:-0.00000 max:+0.00000) Tesla
+bz@(all)(axis):                     (min:-0.00128 max:+0.00128) (min:-0.00035 max:+0.00035) Tesla

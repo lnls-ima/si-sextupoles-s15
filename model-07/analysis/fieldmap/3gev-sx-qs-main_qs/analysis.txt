@@ -1,0 +1,51 @@
+--- fieldmap ---
+timestamp:                          2017-02-24_11-11-22
+filename:                           2017-02-24_SI_Sextupole_Model07_Sim_QS_X=-14_14mm_Z=-500_500mm_Imc=158.48A_Iqs=4.3A.txt
+magnet_label:                       SI_Sextupole
+magnet_length:                      154.0 mm
+main_coil_current:                  4.3 A
+main_coil_NI:                       1782.9 A
+magnetic_gap:                       28.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            57 points in [-14.0,14.0] mm (step of 0.500000 mm)
+rz_grid:                            1001 points in [-500.0,500.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.46843 max:-0.00000) (min:-0.00008 max:-0.00000) Tesla
+bx@(all)(axis):                     (min:-0.00370 max:+0.00369) (min:-0.00000 max:+0.00000) Tesla
+bz@(all)(axis):                     (min:-0.00128 max:+0.00128) (min:-0.00035 max:+0.00035) Tesla
+--- trajectory (rz > 0) ---
+beam_energy:                        3.000 GeV
+horizontal_deflection_angle:        +0.0000e+00 deg.
+vertical_deflection_angle:          +0.0000e+00 deg.
+trajectory_length:                  499.90000000000003 mm
+trajectory_nrpts:                   5000
+trajectory_s_step:                  0.1 mm
+max_abs_bx@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_by@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_bz@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+rx position of reference point:     +0.000000 mm
+initial rx position of trajectory:  +0.000000 mm
+--- multipoles on reference trajectory (rz > 0) ---
+effective_length:                   79.55834742371228 mm
+perpendicular_grid:                 41 points in [-12.000000,+12.000000] mm
+max_fitting_error_normal            0.051/2368.718 G/G
+max_fitting_error_skew              0.087/32.855 G/G
+r0_for_relative_multipoles          12 mm
+main_monomial                       n = 1, skew:True
+                                       Nn(s=0)      Integ_Nn     Nn/N0(@r0)   |    Sn(s=0)      Integ_Sn     Sn/S0(@r0)  
+<multipole_order n>                    [T/m^n]      [T.m/m^n]        []       |    [T/m^n]      [T.m/m^n]        []      
+n=00:                                8.0515e-05    -7.5728e-06   -1.2627e-02  |  2.5288e-06    -1.8031e-08   -3.0065e-05 
+n=01:                                    ---           ---           ---      |  6.2821e-01    +4.9979e-02   +1.0000e+00 
+n=02:                                2.3922e+03    -1.8009e+02   -4.3240e+01  |  4.7055e-02    -1.6325e-04   -3.9196e-05 
+n=03:                                    ---           ---           ---      |  2.7378e+03    -2.0037e+02   -5.7729e-01 
+n=04:                                8.0064e+03    -3.4691e+02   -1.1994e-02  |  2.7482e+03    -3.5164e+01   -1.2158e-03 
+n=06:                                1.6285e+08    +6.0992e+06   +3.0366e-02  |  4.5431e+07    +1.2346e+06   +6.1466e-03 
+n=07:                                    ---           ---           ---      |  4.7579e+09    +3.5267e+08   +2.1070e-02 
+n=08:                                1.9916e+12    +7.1731e+10   +5.1426e-02  |  3.1488e+11    -1.3238e+10   -9.4906e-03 
+n=09:                                    ---           ---           ---      |  3.3666e+13    +2.2597e+12   +1.9441e-02 
+n=10:                                    ---           ---           ---      |  7.0583e+14    +4.5191e+13   +4.6654e-03 
+n=13:                                    ---           ---           ---      |  2.3746e+20    -1.7956e+19   -3.2032e-03 
+n=14:                                3.5880e+23    -2.5019e+22   -5.3561e-02  |      ---           ---           ---     
+--- model polynom_a (rz > 0). units: [m] for length, [rad] for angle and [m^(n-1)] for polynom_a ---
+ len[m]    angle[deg]  PolyA(n=0)   PolyA(n=1)   PolyA(n=2)   PolyA(n=3)   PolyA(n=4)   PolyA(n=6)   PolyA(n=7)   PolyA(n=8)   PolyA(n=9)   PolyA(n=10)  PolyA(n=13)  
+ 0.0750 ,  +0.00000 ,  +2.40e-08 ,  -6.66e-02 ,  +2.18e-04 ,  +2.67e+02 ,  +4.69e+01 ,  -1.64e+06 ,  -4.70e+08 ,  +1.76e+10 ,  -3.01e+12 ,  -6.02e+13 ,  +2.39e+19 , 
