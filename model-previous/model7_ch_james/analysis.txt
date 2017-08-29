@@ -1,0 +1,51 @@
+--- fieldmap ---
+timestamp:                          2016-07-25_14-25-57
+filename:                           SIMA_S15_11072016_v1_CH_FAC.TXT
+magnet_label:                       S_CH
+magnet_length:                      153.5 mm
+main_coil_current:                  152/10-10 A
+main_coil_NI:                       None A
+magnetic_gap:                       28.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            49 points in [-12.0,12.0] mm (step of 0.500000 mm)
+rz_grid:                            601 points in [-300.0,300.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.03365 max:-0.00007) (min:-0.02358 max:-0.00007) Tesla
+bx@(all)(axis):                     (min:-0.00008 max:+0.00004) (min:-0.00000 max:+0.00000) Tesla
+bz@(all)(axis):                     (min:-0.00004 max:+0.00003) (min:-0.00000 max:+0.00000) Tesla
+--- trajectory (rz > 0) ---
+beam_energy:                        3.000 GeV
+horizontal_deflection_angle:        +0.0000e+00 deg.
+vertical_deflection_angle:          +0.0000e+00 deg.
+trajectory_length:                  299.90000000000003 mm
+trajectory_nrpts:                   3000
+trajectory_s_step:                  0.1 mm
+max_abs_bx@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_by@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_bz@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+rx position of reference point:     +0.000000 mm
+initial rx position of trajectory:  +0.000000 mm
+--- multipoles on reference trajectory (rz > 0) ---
+effective_length:                   92.48395696306284 mm
+perpendicular_grid:                 41 points in [-12.000000,+12.000000] mm
+max_fitting_error_normal            0.767/262.591 G/G
+max_fitting_error_skew              0.186/0.327 G/G
+r0_for_relative_multipoles          12 mm
+main_monomial                       n = 0, skew:False
+                                       Nn(s=0)      Integ_Nn     Nn/N0(@r0)   |    Sn(s=0)      Integ_Sn     Sn/S0(@r0)  
+<multipole_order n>                    [T/m^n]      [T.m/m^n]        []       |    [T/m^n]      [T.m/m^n]        []      
+n=00:                                2.3584e-02    -2.1812e-03   +1.0000e+00  |  7.5156e-07    -7.9002e-09   +3.6220e-06 
+n=01:                                    ---           ---           ---      |  1.1519e-03    -1.0812e-07   +5.9481e-07 
+n=02:                                2.5039e-01    +1.6130e-02   -1.0649e-03  |  4.2305e-01    -9.7270e-05   +6.4217e-06 
+n=03:                                    ---           ---           ---      |  9.8086e+01    +3.9210e-02   -3.1064e-05 
+n=04:                                4.6860e+05    -3.3704e+04   +3.2041e-01  |  3.6372e+04    +3.5013e+00   -3.3286e-05 
+n=06:                                4.3855e+07    -8.4810e+06   +1.1610e-02  |  9.9062e+08    -8.9727e+03   +1.2283e-05 
+n=07:                                    ---           ---           ---      |  5.2472e+10    -2.4690e+07   +4.0560e-04 
+n=08:                                1.2434e+12    -4.6979e+10   +9.2611e-03  |  9.5624e+12    -2.7683e+08   +5.4573e-05 
+n=09:                                    ---           ---           ---      |  5.4632e+14    +2.7275e+11   -6.4522e-04 
+n=10:                                    ---           ---           ---      |  2.9486e+16    +9.2151e+11   -2.6159e-05 
+n=13:                                    ---           ---           ---      |  1.0712e+22    -5.7593e+18   +2.8251e-04 
+n=14:                                2.3502e+23    +1.3970e+22   -8.2233e-03  |      ---           ---           ---     
+--- model polynom_b (rz > 0). units: [m] for length, [rad] for angle and [m^(n-1)] for polynom_b ---
+ len[m]   angle[deg]  PolyB(n=0)   PolyB(n=2)   PolyB(n=4)   PolyB(n=6)   PolyB(n=8)   PolyB(n=14)  
+ 0.075  ,  +0.00000 ,  +2.91e-03 ,  -2.15e-02 ,  +4.49e+04 ,  +1.13e+07 ,  +6.26e+10 ,  -1.86e+22 , 

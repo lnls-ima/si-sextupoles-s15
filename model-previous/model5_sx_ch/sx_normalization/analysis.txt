@@ -1,0 +1,51 @@
+--- fieldmap ---
+timestamp:                          2016-02-01_14-14-40
+filename:                           Sextupolo_Anel_S_CH_Modelo 5_-14_14mm_-500_500mm.txt
+magnet_label:                       S_CH
+magnet_length:                      153.5 mm
+main_coil_current:                  152/10-10 A
+main_coil_NI:                       None A
+magnetic_gap:                       28.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            57 points in [-14.0,14.0] mm (step of 0.500000 mm)
+rz_grid:                            1001 points in [-500.0,500.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.51327 max:-0.00001) (min:-0.01720 max:-0.00001) Tesla
+bx@(all)(axis):                     (min:-0.00047 max:+0.00029) (min:-0.00006 max:+0.00000) Tesla
+bz@(all)(axis):                     (min:-0.00060 max:+0.00060) (min:-0.00000 max:+0.00000) Tesla
+--- trajectory (rz > 0) ---
+beam_energy:                        3.000 GeV
+horizontal_deflection_angle:        +0.0000e+00 deg.
+vertical_deflection_angle:          +0.0000e+00 deg.
+trajectory_length:                  499.90000000000003 mm
+trajectory_nrpts:                   5000
+trajectory_s_step:                  0.1 mm
+max_abs_bx@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_by@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_bz@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+rx position of reference point:     +0.000000 mm
+initial rx position of trajectory:  +0.000000 mm
+--- multipoles on reference trajectory (rz > 0) ---
+effective_length:                   75.04763551103514 mm
+perpendicular_grid:                 41 points in [-12.000000,+12.000000] mm
+max_fitting_error_normal            1.836/3508.047 G/G
+max_fitting_error_skew              0.528/0.627 G/G
+r0_for_relative_multipoles          12 mm
+main_monomial                       n = 2, skew:False
+                                       Nn(s=0)      Integ_Nn     Nn/N0(@r0)   |    Sn(s=0)      Integ_Sn     Sn/S0(@r0)  
+<multipole_order n>                    [T/m^n]      [T.m/m^n]        []       |    [T/m^n]      [T.m/m^n]        []      
+n=00:                                1.7198e-02    -1.5944e-03   +5.9704e-02  |  1.7347e-07    -7.7477e-08   +2.9011e-06 
+n=01:                                    ---           ---           ---      |  1.2234e-04    -5.5436e-06   +2.4910e-06 
+n=02:                                2.4712e+03    -1.8546e+02   +1.0000e+00  |  3.5413e-02    +1.4129e-02   -7.6184e-05 
+n=03:                                    ---           ---           ---      |  7.9252e+00    +2.1601e-01   -1.3977e-05 
+n=04:                                3.2690e+05    -2.2880e+04   +1.7765e-02  |  1.7478e+03    -5.7412e+02   +4.4578e-04 
+n=06:                                3.1067e+08    -3.4922e+07   +3.9046e-03  |  3.2351e+07    +9.3175e+06   -1.0418e-03 
+n=07:                                    ---           ---           ---      |  3.4080e+09    -6.4264e+07   +8.6224e-05 
+n=08:                                4.7146e+12    +2.9784e+11   -4.7954e-03  |  2.3885e+11    -6.5251e+10   +1.0506e-03 
+n=09:                                    ---           ---           ---      |  3.2860e+13    +5.2710e+11   -1.0184e-04 
+n=10:                                    ---           ---           ---      |  5.5116e+14    +1.6580e+14   -3.8440e-04 
+n=13:                                    ---           ---           ---      |  5.6031e+20    -7.4808e+18   +2.9971e-05 
+n=14:                                3.7738e+23    -3.0538e+22   +1.4682e-03  |      ---           ---           ---     
+--- model polynom_b (rz > 0). units: [m] for length, [rad] for angle and [m^(n-1)] for polynom_b ---
+ len[m]   angle[deg]  PolyB(n=0)   PolyB(n=2)   PolyB(n=4)   PolyB(n=6)   PolyB(n=8)   PolyB(n=14)  
+ 0.075  ,  +0.00000 ,  +2.12e-03 ,  +2.47e+02 ,  +3.05e+04 ,  +4.65e+07 ,  -3.97e+11 ,  +4.07e+22 , 

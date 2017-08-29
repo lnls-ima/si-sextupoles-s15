@@ -1,0 +1,15 @@
+--- fieldmap ---
+timestamp:                          2015-05-13_16-27-40
+filename:                           Sextupolo_Anel_S_Modelo 3_-14_14mm_-500_500mm.txt
+magnet_label:                       S
+magnet_length:                      150.0 mm
+main_coil_current:                  152 A
+main_coil_NI:                       1824.0 A
+magnetic_gap:                       28.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            57 points in [-14.0,14.0] mm (step of 0.500000 mm)
+rz_grid:                            1001 points in [-500.0,500.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.48239 max:+0.00000) (min:-0.00001 max:+0.00000) Tesla
+bx@(all)(axis):                     (min:-0.00000 max:+0.00000) (min:-0.00000 max:+0.00000) Tesla
+bz@(all)(axis):                     (min:-0.00000 max:+0.00000) (min:-0.00000 max:+0.00000) Tesla

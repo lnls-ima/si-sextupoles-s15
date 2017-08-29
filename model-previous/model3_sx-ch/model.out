@@ -1,0 +1,3 @@
+--- model polynom_b (rz > 0). units: [m] for length, [rad] for angle and [m],[T] for polynom_b ---
+ len[m]    angle[rad]   PolynomB(n=0)  PolynomB(n=2)  PolynomB(n=4)  PolynomB(n=6)  PolynomB(n=8)  PolynomB(n=14) 
+0.07330  +0.000000e+00  +2.143607e-03  +2.466446e+02  +3.058144e+04  +4.724555e+07  -3.932561e+11  +4.102453e+22  

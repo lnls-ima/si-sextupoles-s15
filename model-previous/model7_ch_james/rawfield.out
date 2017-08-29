@@ -1,0 +1,15 @@
+--- fieldmap ---
+timestamp:                          2016-07-25_14-25-57
+filename:                           SIMA_S15_11072016_v1_CH_FAC.TXT
+magnet_label:                       S_CH
+magnet_length:                      153.5 mm
+main_coil_current:                  152/10-10 A
+main_coil_NI:                       None A
+magnetic_gap:                       28.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            49 points in [-12.0,12.0] mm (step of 0.500000 mm)
+rz_grid:                            601 points in [-300.0,300.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.03365 max:-0.00007) (min:-0.02358 max:-0.00007) Tesla
+bx@(all)(axis):                     (min:-0.00008 max:+0.00004) (min:-0.00000 max:+0.00000) Tesla
+bz@(all)(axis):                     (min:-0.00004 max:+0.00003) (min:-0.00000 max:+0.00000) Tesla

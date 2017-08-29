@@ -1,0 +1,51 @@
+--- fieldmap ---
+timestamp:                          2016-07-25_14-25-57
+filename:                           SIMA_S15_11072016_v1_CV_FAC.TXT
+magnet_label:                       S_CV
+magnet_length:                      153.5 mm
+main_coil_current:                  152/10-10 A
+main_coil_NI:                       None A
+magnetic_gap:                       28.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            49 points in [-12.0,12.0] mm (step of 0.500000 mm)
+rz_grid:                            601 points in [-300.0,300.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.00005 max:+0.00004) (min:-0.00000 max:+0.00000) Tesla
+bx@(all)(axis):                     (min:+0.00008 max:+0.02178) (min:+0.00008 max:+0.02178) Tesla
+bz@(all)(axis):                     (min:-0.00677 max:+0.00677) (min:-0.00000 max:+0.00000) Tesla
+--- trajectory (rz > 0) ---
+beam_energy:                        3.000 GeV
+horizontal_deflection_angle:        +0.0000e+00 deg.
+vertical_deflection_angle:          +0.0000e+00 deg.
+trajectory_length:                  299.90000000000003 mm
+trajectory_nrpts:                   3000
+trajectory_s_step:                  0.1 mm
+max_abs_bx@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_by@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_bz@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+rx position of reference point:     +0.000000 mm
+initial rx position of trajectory:  +0.000000 mm
+--- multipoles on reference trajectory (rz > 0) ---
+effective_length:                   93.23174297096085 mm
+perpendicular_grid:                 41 points in [-12.000000,+12.000000] mm
+max_fitting_error_normal            0.388/0.297 G/G
+max_fitting_error_skew              0.137/189.222 G/G
+r0_for_relative_multipoles          12 mm
+main_monomial                       n = 0, skew:True
+                                       Nn(s=0)      Integ_Nn     Nn/N0(@r0)   |    Sn(s=0)      Integ_Sn     Sn/S0(@r0)  
+<multipole_order n>                    [T/m^n]      [T.m/m^n]        []       |    [T/m^n]      [T.m/m^n]        []      
+n=00:                                1.8528e-08    +7.3872e-09   +3.6378e-06  |  2.1781e-02    +2.0306e-03   +1.0000e+00 
+n=01:                                    ---           ---           ---      |  1.3808e-05    +1.9545e-06   +1.1550e-05 
+n=02:                                2.8004e-02    -2.4346e-02   -1.7264e-03  |  2.4804e-01    +4.3657e-03   +3.0959e-04 
+n=03:                                    ---           ---           ---      |  5.8793e+00    -9.7145e-02   -8.2666e-05 
+n=04:                                3.7476e+03    +1.5726e+02   +1.6059e-03  |  4.3112e+05    -3.0009e+04   -3.0644e-01 
+n=06:                                8.5205e+07    -1.4347e+06   -2.1097e-03  |  7.8792e+08    +2.8469e+07   +4.1863e-02 
+n=07:                                    ---           ---           ---      |  1.9952e+09    +3.9907e+07   +7.0418e-04 
+n=08:                                5.3572e+11    +8.8315e+09   +1.8700e-03  |  3.4573e+12    +1.6746e+10   +3.5460e-03 
+n=09:                                    ---           ---           ---      |  2.1715e+13    -3.8122e+11   -9.6865e-04 
+n=10:                                    ---           ---           ---      |  1.7018e+16    +3.4539e+14   +1.0531e-02 
+n=13:                                    ---           ---           ---      |  4.8841e+20    +6.3581e+18   +3.3500e-04 
+n=14:                                3.4285e+22    -2.8765e+20   -1.8187e-04  |      ---           ---           ---     
+--- model polynom_b (rz > 0). units: [m] for length, [rad] for angle and [m^(n-1)] for polynom_b ---
+ len[m]   angle[deg]  PolyB(n=0)   PolyB(n=2)   PolyB(n=4)   PolyB(n=6)   PolyB(n=8)   PolyB(n=14)  
+ 0.075  ,  +0.00000 ,  -9.84e-09 ,  +3.24e-02 ,  -2.10e+02 ,  +1.91e+06 ,  -1.18e+10 ,  +3.83e+20 , 

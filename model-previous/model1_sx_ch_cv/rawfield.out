@@ -1,0 +1,14 @@
+--- fieldmap ---
+timestamp:                          2015-02-13_17-22-02
+filename:                           Sextupolo_Anel_S_CH_CV_Modelo 1_-12_12mm_-500_500mm.txt
+magnet_label:                       S_CH_CV
+magnet_length:                      150.0 mm
+main_coil_current:                  166.67/10/10 A
+magnetic_gap:                       28.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            49 points in [-12.0,12.0] mm (step of 0.500000 mm)
+rz_grid:                            1001 points in [-500.0,500.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.41417 max:-0.00001) (min:-0.01855 max:-0.00001) Tesla
+bx@(all)(axis):                     (min:-0.01795 max:-0.00002) (min:-0.01795 max:-0.00002) Tesla
+bz@(all)(axis):                     (min:-0.00556 max:+0.00556) (min:-0.00000 max:+0.00000) Tesla

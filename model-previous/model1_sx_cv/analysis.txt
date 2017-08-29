@@ -1,0 +1,43 @@
+--- fieldmap ---
+timestamp:                          2015-02-27_13-58-29
+filename:                           Sextupolo_Anel_S_CV_Modelo 1_-12_12mm_-500_500mm.txt
+magnet_label:                       S_CV
+magnet_length:                      150.0 mm
+main_coil_current:                  166.67/10 A
+magnetic_gap:                       28.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            49 points in [-12.0,12.0] mm (step of 0.500000 mm)
+rz_grid:                            1001 points in [-500.0,500.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.38761 max:+0.00012) (min:+0.00000 max:+0.00012) Tesla
+bx@(all)(axis):                     (min:-0.01796 max:-0.00002) (min:-0.01796 max:-0.00002) Tesla
+bz@(all)(axis):                     (min:-0.00557 max:+0.00557) (min:-0.00000 max:+0.00000) Tesla
+--- trajectory (rz > 0) ---
+horizontal_deflection_angle:        +0.0000e+00 deg.
+vertical_deflection_angle:          +0.0000e+00 deg.
+trajectory_length:                  499.90000000000003 mm
+trajectory_nrpts:                   5000
+trajectory_s_step:                  0.1 mm
+max_abs_bx@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_by@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_bz@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+rx position of reference point:     +0.000000 mm
+initial rx position of trajectory:  +0.000000 mm
+--- multipoles on reference trajectory (rz > 0) ---
+perpendicular_grid:                 41 points in [-11.500000,+11.500000] mm
+max_fitting_error_normal            1.401/2541.173 G/G
+max_fitting_error_skew              0.604/140.129 G/G
+r0_for_relative_multipoles          11.7 mm
+main_monomial                       n = 2 ()
+                                      MaxAbs_Nn     Integ_Nn     Nn/N0(@r0)   |   MaxAbs_Sn     Integ_Sn     Sn/S0(@r0)  
+<multipole_order n>                    [T/m^n]      [T.m/m^n]        []       |    [T/m^n]      [T.m/m^n]        []      
+n=00:                                1.2173e-04    +1.2083e-05   -4.4574e-04  |  1.7961e-02    -1.6585e-03   +6.1182e-02 
+n=02:                                2.7011e+03    -1.9802e+02   +1.0000e+00  |  1.2296e+01    +2.2844e-02   -1.1536e-04 
+n=04:                                9.1838e+05    -4.5612e+02   +3.1531e-04  |  3.4435e+05    +2.2839e+04   -1.5789e-02 
+n=06:                                4.0778e+09    +1.2433e+07   -1.1765e-03  |  1.4213e+09    +1.9145e+06   -1.8117e-04 
+n=08:                                3.9095e+13    +9.5476e+10   -1.2368e-03  |  1.4741e+13    -2.1182e+11   +2.7440e-03 
+n=10:                                    ---           ---           ---      |  4.6725e+16    +2.8672e+14   -5.0843e-04 
+n=14:                                2.3777e+24    -2.4564e+22   +8.1623e-04  |      ---           ---           ---     
+--- model polynom_b (rz > 0). units: [mm] for length, [rad] for angle and [m],[T] for polynom_b ---
+len[mm]   angle[rad]   PolynomB(n=0)  PolynomB(n=2)  PolynomB(n=4)  PolynomB(n=6)  PolynomB(n=8)  PolynomB(n=14) 
+0.0750  +0.000000e+00  -1.609897e-05  +2.638441e+02  +6.077434e+02  -1.656537e+07  -1.272134e+11  +3.272883e+22  

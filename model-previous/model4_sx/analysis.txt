@@ -1,0 +1,51 @@
+--- fieldmap ---
+timestamp:                          2015-12-11_09-30-42
+filename:                           Sextupolo_Anel_S_Modelo 4_-14_14mm_-500_500mm.txt
+magnet_label:                       S
+magnet_length:                      153.5 mm
+main_coil_current:                  152 A
+main_coil_NI:                       1824.0 A
+magnetic_gap:                       28.0 mm
+control_gap:                        None mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            57 points in [-14.0,14.0] mm (step of 0.500000 mm)
+rz_grid:                            1001 points in [-500.0,500.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.48246 max:+0.00006) (min:-0.00049 max:+0.00006) Tesla
+bx@(all)(axis):                     (min:-0.00000 max:+0.00000) (min:-0.00000 max:+0.00000) Tesla
+bz@(all)(axis):                     (min:-0.00000 max:+0.00000) (min:-0.00000 max:+0.00000) Tesla
+--- trajectory (rz > 0) ---
+beam_energy:                        3.000 GeV
+horizontal_deflection_angle:        +0.0000e+00 deg.
+vertical_deflection_angle:          +0.0000e+00 deg.
+trajectory_length:                  499.90000000000003 mm
+trajectory_nrpts:                   5000
+trajectory_s_step:                  0.1 mm
+max_abs_bx@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_by@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+max_abs_bz@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0.0) mm
+rx position of reference point:     +0.000000 mm
+initial rx position of trajectory:  +0.000000 mm
+--- multipoles on reference trajectory (rz > 0) ---
+effective_length:                   75.02193616054782 mm
+perpendicular_grid:                 41 points in [-12.000000,+12.000000] mm
+max_fitting_error_normal            0.075/1953.432 G/G
+max_fitting_error_skew              0.037/0.043 G/G
+r0_for_relative_multipoles          12 mm
+main_monomial                       n = 2, skew:False
+                                      MaxAbs_Nn     Integ_Nn     Nn/N0(@r0)   |   MaxAbs_Sn     Integ_Sn     Sn/S0(@r0)  
+<multipole_order n>                    [T/m^n]      [T.m/m^n]        []       |    [T/m^n]      [T.m/m^n]        []      
+n=00:                                4.9010e-04    -1.5719e-05   +5.8917e-04  |  6.5932e-07    -6.7883e-10   +2.5443e-08 
+n=01:                                    ---           ---           ---      |  1.3783e-13    -1.0280e-14   +4.6238e-15 
+n=02:                                2.4697e+03    -1.8528e+02   +1.0000e+00  |  9.7091e-02    +9.9964e-05   -5.3953e-07 
+n=03:                                    ---           ---           ---      |  1.3919e-10    -3.1622e-13   +2.0481e-17 
+n=04:                                8.7009e+05    -3.5246e+02   +2.7394e-04  |  3.9515e+03    -4.0684e+00   +3.1620e-06 
+n=06:                                2.2198e+09    +6.0853e+06   -6.8106e-04  |  6.5010e+07    +6.6934e+04   -7.4911e-06 
+n=07:                                    ---           ---           ---      |  5.2444e-02    +1.5574e-04   -2.0915e-16 
+n=08:                                1.4775e+13    +1.2637e+11   -2.0366e-03  |  4.6437e+11    -4.7811e+08   +7.7052e-06 
+n=09:                                    ---           ---           ---      |  4.2308e+02    -1.0695e+00   +2.0683e-16 
+n=10:                                    ---           ---           ---      |  1.1986e+15    +1.2340e+12   -2.8639e-06 
+n=13:                                    ---           ---           ---      |  8.5628e+09    +4.7403e+06   -1.9010e-17 
+n=14:                                5.3145e+23    -2.6375e+22   +1.2692e-03  |      ---           ---           ---     
+--- model polynom_b (rz > 0). units: [m] for length, [rad] for angle and [m],[T] for polynom_b ---
+ len[m]   angle[deg]  PolyB(n=0)   PolyB(n=2)   PolyB(n=4)   PolyB(n=6)   PolyB(n=8)   PolyB(n=14)  
+ 0.075  ,  +0.00000 ,  +2.09e-05 ,  +2.47e+02 ,  +4.70e+02 ,  -8.11e+06 ,  -1.68e+11 ,  +3.51e+22 , 
