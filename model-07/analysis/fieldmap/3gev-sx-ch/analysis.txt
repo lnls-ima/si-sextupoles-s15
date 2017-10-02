@@ -3,8 +3,10 @@ timestamp:                          2017-02-24_13-06-14
 filename:                           2017-02-24_SI_Sextupole_Model07_Sim_CH_CV_X=-14_14mm_Z=-500_500mm_Imc=158.48A_Ich=10A_Icv=0A.txt
 magnet_label:                       SI_Sextupole
 magnet_length:                      154.0 mm
-main_coil_current:                  10 A
+main_coil_current:                  158.48 A
 main_coil_NI:                       1782.9 A
+ch_coil_current:                    10 A
+cv_coil_current:                    0 A
 magnetic_gap:                       28.0 mm
 control_gap:                        None mm
 ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
@@ -26,7 +28,7 @@ max_abs_bz@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0
 rx position of reference point:     +0.000000 mm
 initial rx position of trajectory:  +0.000000 mm
 --- multipoles on reference trajectory (rz > 0) ---
-effective_length:                   75.28162643125742 mm
+effective_length:                   75.28162643153797 mm
 perpendicular_grid:                 41 points in [-12.000000,+12.000000] mm
 max_fitting_error_normal            0.054/2622.437 G/G
 max_fitting_error_skew              0.084/0.066 G/G

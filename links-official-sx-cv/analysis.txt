@@ -3,8 +3,10 @@ timestamp:                          2017-02-24_13-05-40
 filename:                           2017-02-24_SI_Sextupole_Model07_Sim_CH_CV_X=-14_14mm_Z=-500_500mm_Imc=158.48A_Ich=0A_Icv=10A.txt
 magnet_label:                       SI_Sextupole
 magnet_length:                      154.0 mm
-main_coil_current:                  10 A
+main_coil_current:                  158.48 A
 main_coil_NI:                       1782.9 A
+ch_coil_current:                    0 A
+cv_coil_current:                    10 A
 magnetic_gap:                       28.0 mm
 control_gap:                        None mm
 ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
@@ -26,7 +28,7 @@ max_abs_bz@trajectory:              +0.000000 Tesla at (s,rx,ry,rz) = (0.0,0,0,0
 rx position of reference point:     +0.000000 mm
 initial rx position of trajectory:  +0.000000 mm
 --- multipoles on reference trajectory (rz > 0) ---
-effective_length:                   75.28176596424512 mm
+effective_length:                   75.28176596422476 mm
 perpendicular_grid:                 41 points in [-12.000000,+12.000000] mm
 max_fitting_error_normal            0.055/1590.299 G/G
 max_fitting_error_skew              0.058/190.541 G/G
@@ -36,7 +38,7 @@ main_monomial                       n = 2, skew:False
 <multipole_order n>                    [T/m^n]      [T.m/m^n]        []       |    [T/m^n]      [T.m/m^n]        []      
 n=00:                                2.1767e-04    +1.9912e-05   -7.6853e-04  |  2.4023e-02    -2.2532e-03   +8.6964e-02 
 n=01:                                    ---           ---           ---      |  1.4305e-04    -1.3619e-06   +6.3079e-07 
-n=02:                                2.3900e+03    -1.7992e+02   +1.0000e+00  |  9.7394e-03    +3.1373e-03   -1.7437e-05 
+n=02:                                2.3900e+03    -1.7992e+02   +1.0000e+00  |  9.7393e-03    +3.1373e-03   -1.7437e-05 
 n=03:                                    ---           ---           ---      |  1.4878e+00    +5.7449e-02   -3.8316e-06 
 n=04:                                1.1594e+03    +1.3145e+02   -1.0520e-04  |  4.5354e+05    +3.2693e+04   -2.6166e-02 
 n=06:                                1.0790e+08    +5.1247e+06   -5.9062e-04  |  3.2474e+08    -2.0610e+07   +2.3753e-03 
