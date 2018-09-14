@@ -15,13 +15,14 @@ function opt = get_params()
     end
     params.fam_idcs = [0; cumsum(params.fam_sizes)];
     
-    params.orbit.bpm_idx = params.fam_data.BPM.ATIndex(:);
-    params.orbit.hcm_idx = params.fam_data.CH.ATIndex(:);
-    params.orbit.vcm_idx = params.fam_data.CV.ATIndex(:);
-    params.orbit.max_nr_iter = 20;
-    params.orbit.svs = 'all';
-    r = calc_respm_cod(params.ring0, params.orbit.bpm_idx, params.orbit.hcm_idx, params.orbit.vcm_idx);
-    params.orbit.respm = r.respm;
+    orbit.bpm_idx = params.fam_data.BPM.ATIndex(:);
+    orbit.hcm_idx = params.fam_data.CH.ATIndex(:);
+    orbit.vcm_idx = params.fam_data.CV.ATIndex(:);
+    orbit.max_nr_iter = 20;
+    orbit.svs = 'all';
+    r = calc_respm_cod(params.ring0, orbit.bpm_idx, orbit.hcm_idx, orbit.vcm_idx);
+    orbit.respm = r.respm;
+    params.orbit = orbit;
     
     opt.objective_fun = @specifics.calc_residue;
     opt.objective_data = params;
@@ -37,5 +38,5 @@ function opt = get_params()
     opt.arbitrary_initial = false;
     opt.print_info = @specifics.print_info;
     opt.simulanneal_Niter = 100000;
-    opt.simulanneal_weight = [10, 50];
+    opt.simulanneal_weight = [30, 50];
 end
