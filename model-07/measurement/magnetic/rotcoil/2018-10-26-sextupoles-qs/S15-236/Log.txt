@@ -1,0 +1,26 @@
+1 - S15-236_Estudos_Efeitos_QS_Sextupolo_135A_1
+Após ciclagem monopolar trapezoidal. Ciclo QS.
+
+2 - S15-236_Estudos_Efeitos_QS_Sextupolo_115A_1
+Ramp Down. Ciclo QS.
+
+3 - S15-236_Estudos_Efeitos_QS_Sextupolo_95A_1
+Ramp Down. Ciclo QS.
+
+4 - S15-236_Estudos_Efeitos_QS_Sextupolo_75A_1
+Ramp Down. Ciclo QS.
+
+5 - S15-236_Estudos_Efeitos_QS_Sextupolo_55A_1
+Ramp Down. Ciclo QS.
+
+6 - S15-236_Estudos_Efeitos_QS_Sextupolo_135A_2
+Ramp Down para 0A, Set to 135A. Ciclo QS.
+
+7 - S15-236_Estudos_Efeitos_QS_Sextupolo_135A_3
+Após ciclagem monopolar trapezoidal. Ciclo QS.
+
+8 - S15-236_Estudos_Efeitos_QS_Sextupolo_135A_4
+Após ciclagem monopolar trapezoidal. Ciclo QS até 5.5A.
+
+9 - S15-236_Estudos_Efeitos_QS_Sextupolo_135A_5
+Após ciclagem monopolar trapezoidal. Ciclo QS até 5.5A.
