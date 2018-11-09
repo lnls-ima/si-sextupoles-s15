@@ -46,12 +46,16 @@ end
 function [data, names] = import_readme(cur, ind)
     dataArray1 = read_file(sprintf('../MULTIPOLES-FAM1-%dA.txt', cur));
     dataArray2 = read_file(sprintf('../MULTIPOLES-FAM2-%dA.txt', cur));
+    dataArray3 = read_file(sprintf('../MULTIPOLES-PROT-%dA.txt', cur));  % added after sorting
 
-    names = [dataArray1{1}; dataArray2{1}];
-    data.current = [dataArray1{2}; dataArray2{2}];
+    names = [dataArray1{1}; dataArray2{1}; dataArray3{1}];
+    data.current = [dataArray1{2}; dataArray2{2}; dataArray3{2}];
     pols1 = cell2mat(dataArray1(3:end-1));
+    pols1 = [pols1(:, 1:12), pols1(:, 16:27)];
     pols2 = cell2mat(dataArray2(3:end-1));
-    pols = [pols1; pols2];
+    pols2 = [pols2(:, 1:12), pols2(:, 16:27)];
+    pols3 = cell2mat(dataArray3(3:26));  % added after sorting
+    pols = [pols1; pols2; pols3];
     
     if exist('ind', 'var')
         names = names(ind, :);
@@ -59,9 +63,12 @@ function [data, names] = import_readme(cur, ind)
         pols = pols(ind, :);
     end
     
-    ave_kl = mean(pols(:, 3));
-    data.polB = pols(:, 1:15) / ave_kl;
-    data.polA = pols(:, 16:end) / ave_kl;
+    % Remove prototype results from average so that they do not change
+    % previous results
+    ind = sum(~isnan(pols(1,:)))/2;
+    ave_kl = mean(pols(1:end-2, 3));
+    data.polB = pols(:, 1:ind) / ave_kl;
+    data.polA = pols(:, ind+1:end) / ave_kl;
     data.exc_err = data.polB(:, 3) - 1;
     data.roll = atan(data.polA(:, 3)./data.polB(:, 3)) / 3;
     z0 = -(data.polB(:, 2) + 1i * data.polA(:, 2)) ./ (data.polB(:, 3) + 1i * data.polA(:, 3)) / 2;

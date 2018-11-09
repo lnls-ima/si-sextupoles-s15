@@ -636,7 +636,7 @@
 | style="text-align:center; background-color: #D1D1D1;" | S15-211
 |-
 | style="text-align:center; background-color: #F1F1F1;" | SI-06C1:MA-SDB2
-| style="text-align:center; background-color: #F1F1F1;" | S15-091
+| style="text-align:center; background-color: #F1F1F1;" | S15-006
 |-
 | style="text-align:center; background-color: #D1D1D1;" | SI-07C4:MA-SDB2
 | style="text-align:center; background-color: #D1D1D1;" | S15-235
@@ -956,7 +956,7 @@
 | scope="col" width="200px" style="font-weight:bold; text-align:center;" | Magnet Serial ID
 |-
 | style="text-align:center; background-color: #D1D1D1;" | ---
-| style="text-align:center; background-color: #D1D1D1;" | S15-006
+| style="text-align:center; background-color: #D1D1D1;" | S15-091
 |-
 |}
 </figtable>

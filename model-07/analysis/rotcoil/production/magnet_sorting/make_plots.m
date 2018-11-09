@@ -41,7 +41,7 @@ function twi = make_plots(indcs, params)
 %     legend(axs(2), 'best', fs);
 
     
-    figure('Position', [100, 10, 1200, 2000]);
+    figure('Position', [100, 10, 3200, 2000]);
     axs(1) = subplottight(4, 1, 1, 'left', 0.1, 'vspace', 0.06);
     axs(2) = subplottight(4, 1, 2, 'left', 0.1, 'vspace', 0.06);
     axs(3) = subplottight(4, 1, 3, 'left', 0.1, 'vspace', 0.06);
@@ -85,7 +85,13 @@ function twi = make_plots(indcs, params)
     for j=1:length(axs)
         yl = get(axs(j), 'YLim');
         for i=1:n
-            plot(axs(j), params.fam_idcs(i+1)*[1,1]+0.2, yl, '-k', 'LineWidth', 2);
+            idx = params.fam_idcs(i+1);
+            plot(axs(j), idx*[1,1]+0.2, yl, '-k', 'LineWidth', 2);
+            if j == 1
+                idx = params.fam_idcs(i);
+                text(axs(j), idx + 2, 0.2, params.data.families{i}, 'FontSize', 20);
+                text(axs(j), idx + 2, -0.2, params.data.currents{i}, 'FontSize', 20);
+            end
         end
     end
 end
